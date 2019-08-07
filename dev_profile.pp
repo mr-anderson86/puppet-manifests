@@ -1,5 +1,6 @@
 node some-node {
-  #(Still need to implement)
+
+  # https://github.com/mr-anderson86/puppet-defaults
   include defaults
 
   # https://forge.puppet.com/puppet/python
