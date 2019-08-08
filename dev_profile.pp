@@ -13,8 +13,7 @@ node some-node {
 
   # My maven module module installes maven 3.6.0
   # It also installes java-1.8.0-openjdk-devel
-  # (You can always user package 'maven' and then it'll install maven 3.0 and jdk non devel 1.8)
-  # (Still need to implement this class)
+  # https://github.com/mr-anderson86/puppet-maven
   include maven
   
   user { 'devuser' :
